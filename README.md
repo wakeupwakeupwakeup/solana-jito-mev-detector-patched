@@ -46,18 +46,6 @@ Solana: FBhS1a57H6MnHAVcu3MntF1tj8MkGnrvo7nFWc49rgKE
 - **🆕 Flexible Configuration System** - Customize all detection parameters via TOML configuration file
 - **🆕 Hot Parameter Adjustment** - Adjust detection sensitivity and loss calculation parameters without source code modification
 
-## 🏗️ Architecture Design
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   main.rs       │    │   client.rs     │    │   mev.rs        │
-│                 │    │                 │    │                 │
-│ • User Interface│◄──►│ • RPC Client    │◄──►│ • MEV Detection │
-│ • Flow Control  │    │ • Data Fetching │    │ • Loss Calculation│
-│ • Result Display│    │ • Block Parsing │    │ • Attack Recognition│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
-
 ## 🛠️ Technology Stack
 
 - **Language**: Rust 2021 Edition (1.70+)
