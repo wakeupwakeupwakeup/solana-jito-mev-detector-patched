@@ -14,6 +14,10 @@ The build script automatically detects your platform and creates optimized binar
 | `jito-mev-detector_aarch64-linux-musl` | aarch64-unknown-linux-musl | **ARM 64-bit** - For ARM-based systems (Raspberry Pi 4, ARM servers)                                  |
 | `jito-mev-detector_x86_64-linux-glibc` | x86_64-unknown-linux-gnu   | **Modern Linux** - For systems with glibc (Ubuntu 20+, Debian 11+, etc.)                              |
 
+# Our Discord
+
+If you have any questions, please join our Discord: https://discord.gg/uQjDnRhy
+
 # Buy me a coffee
 
 Solana: FBhS1a57H6MnHAVcu3MntF1tj8MkGnrvo7nFWc49rgKE
